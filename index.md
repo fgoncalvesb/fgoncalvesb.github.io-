@@ -7,12 +7,12 @@
 
 <h1>This is my first Headline.</h1>
   
-  <p> This is my first paragraph</p>
+  <p>This is my first paragraph</p>
 
-   <div > First div tag   </div>
-   <div > Second div tag  </div>
-   <div > Third div tag   </div>
-   <div > Forth Div Tag   </div>
+   <div id = "firstdiv"> First div tag</div>
+   <div> Second div tag</div>
+   <div> Third div tag</div>
+   <div> Forth Div Tag</div>
   
   <br>
   
