@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+<body>
 
-    </head>
-    <body>
+<h1>This is my first HTML page in Laurea Foundations of Web Development course.</h1>
 
-    <h1>All about rabbits!</h1>
-    
-   
-    </body>
-</html>
+</body>
+</html> 
