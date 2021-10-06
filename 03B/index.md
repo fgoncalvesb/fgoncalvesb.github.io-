@@ -2,10 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>CSS inheritance</title>
-        <style>
 
-        </style>
     </head>
     <body>
 
