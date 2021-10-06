@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"> 
   <head>
-    <link rel="stylesheet" href="mystyle.css">
+    <title>
+	Assignment 3 B - Web page
+	</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
 
@@ -9,10 +13,7 @@
   
   <p>This is my first paragraph</p>
 
-   <div id = "firstdiv"> First div tag</div>
-   <div> Second div tag</div>
-   <div> Third div tag</div>
-   <div> Forth Div Tag</div>
+   <div class="divclass"> First div tag</div>
   
   <br>
   
