@@ -1,15 +1,25 @@
-	#box-one {
+body {
+background-color: black;
+color: white;
+}
 
-	background-color: gray;
+h1 {
+font-size: 20px;
+}  
 
-	}
+p {
+font-size: 12px;
+	color: green;
+}  
 
-	 
+div {
+font-size: 12px;
+	color: green;
+}  
 
-	#box-two {
-
-	background-color: yellow;
-
-	padding: 10px;
-
-	}
+#firstdiv {
+	border-style: dotted;
+	border-width: 2px;
+	height: 100px;
+        width: 100px;
+}
