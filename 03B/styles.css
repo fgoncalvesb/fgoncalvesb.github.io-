@@ -12,20 +12,16 @@ font-size: 12px;
 	color: green;
 }  
 
-div {
-font-size: 12px;
-	color: green;
-}  
 
-#firstdiv {
+.divclass {
 	border-style: dotted;
 	border-width: 2px;
 	height: 100px;
-        width: 100px;
+    width: 100px;
 }
 
 ol {
-type="A"
+list-style-type:upper-latin;
 }
 
 ul {
