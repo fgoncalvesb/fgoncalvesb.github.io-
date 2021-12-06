@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>titulo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+    <header class="header-menu">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="WebDevTours.png"></img>
+            </div>
+            <div class="header-content">
+                <div class="header-content-top"></div>
+                <div class="header-content-bottom">
+                    <div class="nav">
+                        <nav>
+                            <div class="topnav" id="myTopnav">
+                                <a href="index.html">Home</a>
+                                <a href="news.html">News</a>
+                                <a href="contact.html">Contact</a>
+                                <a href="about.html"  class="active"">About Us</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="body-container">
+        <div class="body-image-header-about">
+        </div>
+        <div class="body-title-container">
+            <div class="body-title">
+                <h1>About WebDevTours</h1>
+            </div>
+            <div class="body-subtitle">
+                <h3>We are a new family business from the province of Misiones, Argentina. We started our business a couple of months ago, focused on delivering the best tourism-holiday-packs and tourism services that can be found in Argentina.</h3>
+            </div>
+        </div>
+        <div class="body-cards-container">
+            <div class="column">
+                <div class="card-1-container">
+                    <div class="card">
+                        <div class="card-title"><h2>Best Prices</h2></div>
+                        <div class="card-description">
+                            <h4>Unmatchables offers among what is currently offered in the market for all the best locations across the country. If you find a better price elsewhere, let us know and we will match it!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-2-container">
+                    <div class="card">
+                        <div class="card-title"><h2>Flexibility</h2></div>
+                        <div class="card-description">
+                            <h4>Nothing is written in stone. We have a high flexibility regarding the modification of tours, change of dates and addition or removal of total attendees for a tour.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card-3-container">
+                    <div class="card">
+                        <div class="card-title"><h2>Taylored holidays</h2></div>
+                        <div class="card-description">
+                            <h4>Would you like to visit different locations at the pace that suits you best?, would you like to visit places where only specialised guides can take you?, we can personalise your experience regarding your needs!</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+ 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="WebDevTours_foot.png" ></img>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html" class="active">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-networks">
+                    <ul>
+                        <li><a href="#twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#facebook"><i class="fa fa-facebook"></i></li>
+                        <li><a href="#instagram"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>copyright @</small>
+            </div>
+        </div>
+        
+
+       
+      
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>titulo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+    <header class="header-menu">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="WebDevTours.png"></img>
+            </div>
+            <div class="header-content">
+                <div class="header-content-top"></div>
+                <div class="header-content-bottom">
+                    <div class="nav">
+                        <nav>
+                            <div class="topnav" id="myTopnav">
+                                <a href="index.html">Home</a>
+                                <a href="news.html" class="active">News</a>
+                                <a href="contact.html">Contact</a>
+                                <a href="about.html">About Us</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="body-container">
+        <div class="body-image-header-news">
+        </div>
+        <div class="body-title-container">
+            <div class="body-title">
+                <h1>Latest news</h1>
+            </div>
+            <div class="body-subtitle">
+                <h3>Discover new places </h3>
+            </div>
+        </div>
+        <div class="body-cards-container">
+            <div class="column">
+                <div class="card-1-container">
+                    <div class="card">
+                        <div class="card-image-1-news"></div>
+                        <div class="card-title"><h2>Another big prize for local wines during the year.</h2></div>
+                        <div class="card-description">
+                            <h4>In the following months the local wine festival will take place in Mendoa. Local hotels will have limited hosting capacity.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card-2-container">
+                    <div class="card">
+                        <div class="card-image-2-news"></div>
+                        <div class="card-title"><h2>Pinguin sightseeing everywhere in Ushuaia.</h2></div>
+                        <div class="card-description">
+                            <h4>After some many months without tourism, pinguins have reached further locations and are now even closer to the city.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="card-3-container">
+                    <div class="card">
+                        <div class="card-image-3-news"></div>
+                        <div class="card-title"><h2>How much does a typical tourist day cost in Buenos Aires?</h2></div>
+                        <div class="card-description">
+                            <h4>The country slowly starts to receive new waves of tourism and faces the demand with special offers in the city of Buenos Aires.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+ 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="WebDevTours_foot.png" ></img>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="news.html" class="active">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-networks">
+                    <ul>
+                        <li><a href="#twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#facebook"><i class="fa fa-facebook"></i></li>
+                        <li><a href="#instagram"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>copyright @</small>
+            </div>
+        </div>
+        
+
+       
+      
+    </footer>
+  </body>
+</html>
