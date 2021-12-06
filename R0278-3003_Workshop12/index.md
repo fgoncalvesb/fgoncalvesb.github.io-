@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>titulo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+    <header class="header-menu">
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="WebDevTours.png"></img>
+            </div>
+            <div class="header-content">
+                <div class="header-content-top"></div>
+                <div class="header-content-bottom">
+                    <div class="nav">
+                        <nav>
+                            <div class="topnav" id="myTopnav">
+                                <a href="index.html" class="active">Home</a>
+                                <a href="news.html">News</a>
+                                <a href="contact.html">Contact</a>
+                                <a href="about.html">About Us</a>
+                                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                                </a>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="body-container">
+        <div class="body-image-header-index">
+        </div>
+        <div class="body-title-container">
+            <div class="body-title">
+                <h1></h1>
+            </div>
+            <div class="body-subtitle">
+                <h3>Discover new places in Argentina with WebDevTours!</h3>
+            </div>
+        </div>
+        <div class="body-cards-container">
+            <div class="column-home">
+                <div class="card-1-container">
+                    <div class="card">
+                        <div class="card-image-1-index"></div>
+                        <div class="card-title"><h2>Hill of the 7 colours - Jujuy</h2></div>
+                        <div class="card-description">
+                            <h4>Visit the north-west of Argentina with one of our typical family-holiday-pack and end up in Iguazú-falls on the north-east.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column-home">
+                <div class="card-2-container">
+                    <div class="card">
+                        <div class="card-image-2-index"></div>
+                        <div class="card-title"><h2>Pertio Moreno Glacier - Santa Cruz.</h2></div>
+                        <div class="card-description">
+                            <h4>Looking to travel alone or with your couple?, we got you covered with our special discounts.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+ 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="WebDevTours_foot.png" ></img>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social-networks">
+                    <ul>
+                        <li><a href="#twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#facebook"><i class="fa fa-facebook"></i></li>
+                        <li><a href="#instagram"><i class="fa fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <small>copyright @</small>
+            </div>
+        </div>
+        
+
+       
+      
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
